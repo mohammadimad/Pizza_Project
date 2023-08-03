@@ -180,6 +180,21 @@ namespace Pizze_Project
             this.lblPrice.Size = new System.Drawing.Size(67, 20);
             this.lblPrice.TabIndex = 8;
             this.lblPrice.Text = "label44";
+
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(249, 400);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 35);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Close";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            
             // 
             // OrderSummary
             // 
@@ -189,6 +204,7 @@ namespace Pizze_Project
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.Price);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
@@ -218,5 +234,6 @@ namespace Pizze_Project
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Price;
         private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Button button1;
     }
 }
