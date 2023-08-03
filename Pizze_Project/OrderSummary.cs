@@ -42,5 +42,9 @@ namespace Pizze_Project
            // BackColor = Color.FromArgb(135, 63, 44);
             ForeColor = Color.FromArgb(135, 63, 44);
         }
+         private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
